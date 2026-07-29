@@ -1,0 +1,21 @@
+# IDE settings
+.idea/
+.vscode/
+
+# macOS metadata
+.DS_Store
+
+# Python cache files
+**/__pycache__/
+*.py[cod]
+
+# Local datasets and generated features
+data_raw/
+data/
+data_reproduce/
+
+# Experiment outputs
+result/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
