@@ -173,7 +173,3 @@ accelerate launch --config_file ../accelerate_config.yaml train.py \
 ```
 
 Each run saves its configuration, metrics, training curve, and selected checkpoint under `result/<run_name>/`. The helper script `jmpax.py` can aggregate results across the five folds after its result prefix is configured.
-
-## Cite Us
-
-The ColdSL manuscript is currently in preparation. Citation information will be added after a public paper or preprint identifier becomes available.
